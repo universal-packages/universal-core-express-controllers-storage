@@ -1,5 +1,4 @@
 default:
-  dynamicsLocation: './src/dynamics'
-
-development:
-  secret: development-secret
+  routes:
+    retrieve:
+      enabled: true
