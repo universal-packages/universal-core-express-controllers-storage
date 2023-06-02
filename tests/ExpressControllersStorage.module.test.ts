@@ -1,4 +1,5 @@
 import { Logger } from '@universal-packages/logger'
+
 import { ExpressControllersStorageModule } from '../src'
 
 describe('ExpressControllersStorageModule', (): void => {
