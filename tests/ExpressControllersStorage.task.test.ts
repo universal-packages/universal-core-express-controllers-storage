@@ -5,7 +5,7 @@ import ExpressControllersStorageTask from '../src/ExpressControllersStorage.univ
 
 jest.mock('@universal-packages/template-populator')
 
-describe('ExpressControllersStorageTask', (): void => {
+describe(ExpressControllersStorageTask, (): void => {
   it('behaves as expected', async (): Promise<void> => {
     const logger = new Logger({ silence: true })
 
