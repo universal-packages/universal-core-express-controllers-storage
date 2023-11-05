@@ -16,7 +16,7 @@
     "update-dependents": "umaintenance update-dependents"
   },
   "dependencies": {
-    "@universal-packages/express-controllers-storage": "^1.3.12"
+    "@universal-packages/express-controllers-storage": "^1.3.13"
   },
   "peerDependencies": {
     "@universal-packages/core": "^1.16.8",
