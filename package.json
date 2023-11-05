@@ -20,7 +20,7 @@
   },
   "peerDependencies": {
     "@universal-packages/core": "^1.16.6",
-    "@universal-packages/core-express-controllers": "^1.3.25",
+    "@universal-packages/core-express-controllers": "^1.3.26",
     "@universal-packages/core-storage": "^1.3.20"
   },
   "devDependencies": {
