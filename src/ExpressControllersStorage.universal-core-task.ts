@@ -11,7 +11,7 @@ export default class ExpressControllersStorageTask extends CoreTask {
       case 'init':
         await populateTemplates(path.resolve(__dirname, 'template'), './src', { override: this.args.f })
 
-        this.logger.publish('INFO', 'Authentication template initialized')
+        this.logger.log({ level: 'INFO', title: 'Authentication template initialized' })
         break
       default:
         throw new Error(`Unrecognized directive ${this.directive}`)
