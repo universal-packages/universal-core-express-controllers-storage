@@ -19,8 +19,8 @@
     "@universal-packages/express-controllers-storage": "^1.4.0"
   },
   "peerDependencies": {
-    "@universal-packages/core-express-controllers": "^1.7.1",
-    "@universal-packages/core-storage": "^1.4.10"
+    "@universal-packages/core-express-controllers": "^1.7.2",
+    "@universal-packages/core-storage": "^1.4.11"
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
