@@ -18,7 +18,7 @@ npm install @universal-packages/core-storage
 ## Initialization
 
 ```shell
-ucore exec storage-task init
+ucore initialize express-controllers-storage
 ```
 
 ## Running App
