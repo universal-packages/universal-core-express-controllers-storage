@@ -7,7 +7,7 @@ export default class ExpressControllersStorageModule extends CoreModule<ExpressC
   public static readonly defaultConfig: ExpressControllersStorageOptions = { dynamicsLocation: './src' }
 
   public async prepare(): Promise<void> {
-    await initialize(this.config, core.coreModules.storageModule.subject)
+    await initialize(this.config, core.coreModules.storage.subject)
   }
 
   public async release(): Promise<void> {}
