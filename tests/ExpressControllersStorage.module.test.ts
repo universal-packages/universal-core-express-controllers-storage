@@ -15,8 +15,8 @@ coreJest.runBare({
 
 describe(ExpressControllersStorageModule, (): void => {
   it('behaves as expected', async (): Promise<void> => {
-    expect(core.coreModules.expressControllersStorageModule).not.toBeUndefined()
-    expect(core.coreModules.expressControllersStorageModule.config).toEqual({ dynamicsLocation: './src', routes: { retrieve: { enabled: true } } })
+    expect(core.coreModules.expressControllersStorage).not.toBeUndefined()
+    expect(core.coreModules.expressControllersStorage.config).toEqual({ dynamicsLocation: './src', routes: { retrieve: { enabled: true } } })
     expect(initialize).toHaveBeenCalledWith({ dynamicsLocation: './src', routes: { retrieve: { enabled: true } } }, expect.any(Storage))
   })
 })

@@ -1,0 +1,4 @@
+default:
+  routes:
+    retrieve:
+      enabled: true
