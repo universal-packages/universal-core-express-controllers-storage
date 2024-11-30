@@ -16,10 +16,10 @@
     "update-universal-dependencies": "umaintenance update-universal-dependencies"
   },
   "dependencies": {
-    "@universal-packages/express-controllers-storage": "^1.4.17"
+    "@universal-packages/express-controllers-storage": "^1.4.18"
   },
   "peerDependencies": {
-    "@universal-packages/core-express-controllers": "^1.9.23",
+    "@universal-packages/core-express-controllers": "^1.9.24",
     "@universal-packages/core-storage": "^1.6.23"
   },
   "devDependencies": {
