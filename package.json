@@ -16,11 +16,11 @@
     "update-universal-dependencies": "umaintenance update-universal-dependencies"
   },
   "dependencies": {
-    "@universal-packages/express-controllers-storage": "^1.5.3"
+    "@universal-packages/express-controllers-storage": "^1.5.4"
   },
   "peerDependencies": {
     "@universal-packages/core-express-controllers": "^1.10.7",
-    "@universal-packages/core-storage": "^1.8.0"
+    "@universal-packages/core-storage": "^1.8.1"
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
